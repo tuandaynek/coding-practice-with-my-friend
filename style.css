@@ -39,7 +39,7 @@ select:hover {
 }
 
 pre.hljs {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #272822; /* Monokai background color */
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 15px;
@@ -47,6 +47,7 @@ pre.hljs {
   font-size: 18px; /* Tăng kích thước font chữ cho mã */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
   animation: fadeInUp 1s ease-in-out; /* Hiệu ứng xuất hiện mã */
+  color: #f8f8f2; /* Monokai text color */
 }
 
 button {
@@ -82,4 +83,31 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
