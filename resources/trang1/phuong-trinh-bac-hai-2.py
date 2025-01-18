@@ -17,4 +17,6 @@ Các mấu chốt để giải được bài tập này::
 - kiến thức về thư viện bên ngoài (import math)
 - cách làm tròn số thập phân (x:.2f)
 - nhập các số trên cùng 1 dòng (split())
+- kiến thức xuống dòng (\n)
+- kiến thức chèn một biến vào trong lệnh print (print(f"{}"))
 """
