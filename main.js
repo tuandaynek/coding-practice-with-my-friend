@@ -47,6 +47,7 @@ function loadCode() {
         .then(response => response.text())
         .then(data => {
             codeDisplay.textContent = data;
+            hljs.highlightElement(codeDisplay);  // Áp dụng Highlight.js
         })
         .catch(error => {
             console.error('Error loading code:', error);
