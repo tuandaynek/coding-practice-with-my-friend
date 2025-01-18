@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giải Bài Tập Hackerank Coding-Practice-With-Friends</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/monokai.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Giải Bài Tập Hackerank Coding-Practice-With-Friends</h1>
+    <h1>Coding Practice For Friends</h1>
     
     <label for="trangSelect">Chọn Trang:</label>
     <select id="trangSelect" onchange="updateProblems()"></select>
@@ -16,7 +19,8 @@
     <label for="problemSelect">Chọn Bài:</label>
     <select id="problemSelect" onchange="loadCode()"></select>
 
-    <pre id="codeDisplay" class="hljs python"></pre>
+    <pre><code class="python hljs" id="codeDisplay"></code></pre>
+
     <button onclick="copyCode()">Copy Code</button>
 
     <div id="notification" class="hidden">Mã đã được sao chép vào clipboard!</div>
