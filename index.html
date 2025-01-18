@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Bài Tập Hackerank Coding-Practice-With-Friends</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Giải Bài Tập Hackerank Coding-Practice-With-Friends</h1>
+    
+    <label for="trangSelect">Chọn Trang:</label>
+    <select id="trangSelect" onchange="updateProblems()"></select>
+    
+    <label for="problemSelect">Chọn Bài:</label>
+    <select id="problemSelect" onchange="loadCode()"></select>
+
+    <pre id="codeDisplay" class="hljs python"></pre>
+    <button onclick="copyCode()">Copy Code</button>
+
+    <div id="notification" class="hidden">Mã đã được sao chép vào clipboard!</div>
+</body>
+</html>

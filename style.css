@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px; /* Tăng kích thước font chữ */
+  margin: 20px;
+  background-color: #f9f9f9; /* Thêm màu nền nhẹ */
+  transition: background-color 0.3s ease-in-out; /* Hiệu ứng chuyển màu nền */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px; /* Tăng kích thước font chữ cho tiêu đề */
+  color: #333; /* Màu chữ */
+  animation: fadeInDown 1s ease-in-out; /* Hiệu ứng xuất hiện tiêu đề */
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px; /* Tăng kích thước font chữ cho nhãn */
+  color: #555; /* Màu chữ */
+  animation: fadeIn 1s ease-in-out; /* Hiệu ứng xuất hiện nhãn */
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px; /* Tăng kích thước font chữ cho dropdown */
+  transition: border-color 0.3s ease-in-out; /* Hiệu ứng chuyển màu viền */
+}
+
+select:hover {
+  border-color: #4CAF50; /* Thay đổi màu viền khi hover */
+}
+
+pre.hljs {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-x: auto; /* Enable horizontal scrolling if code exceeds container width */
+  font-size: 18px; /* Tăng kích thước font chữ cho mã */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+  animation: fadeInUp 1s ease-in-out; /* Hiệu ứng xuất hiện mã */
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; /* Tăng kích thước font chữ cho nút */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Hiệu ứng chuyển màu nền */
+}
+
+button:hover {
+  background-color: #45a049; /* Thay đổi màu nền khi hover */
+}
+
+#notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px; /* Tăng kích thước font chữ cho thông báo */
+  transition: opacity 0.3s ease-in-out; /* Smooth fade-in/out effect */
+  animation: fadeIn 0.5s ease-in-out; /* Hiệu ứng xuất hiện thông báo */
+}
+
+.hidden {
+  display: none;
+}
