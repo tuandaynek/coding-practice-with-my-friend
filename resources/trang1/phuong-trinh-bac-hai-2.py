@@ -1,10 +1,10 @@
-import math #thư viện dùng để sử dụng để tìm căn n trong bài toán này
+import math #thư viện dùng để sử dụng để tìm căn của một số trong bài toán này
 
 a, b, c = map(float, input().split())
 delta = (b**2)-4*a*c
 if(delta == 0):
     x = -b/(2*a)
-    print(f"{x:.2f}") #làm tròn 2 chữ số thập phân
+    print(f"{x:.2f}") #làm tròn 2 chữ số sau dấu phẩy
 elif(delta > 0):
     x1 = (-b+math.sqrt(delta))/(2*a)
     x2 = (-b-math.sqrt(delta))/(2*a)
