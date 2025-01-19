@@ -10,6 +10,9 @@ const problemsMapping = {
         'phuong-trinh-bac-hai-2',
         'so-chinh-phuong-trong-doan-2',
     ],
+    2: [
+        '[HSG-KC-Dong-Nai-24-25]-Chia-Sticker',
+    ],
 };
 
 function populateTrangSelect() {
