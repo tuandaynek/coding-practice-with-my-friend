@@ -12,6 +12,7 @@ const problemsMapping = {
     ],
     2: [
         '[HSG-KC-Dong-Nai-24-25]-Chia-Sticker',
+        'tong-lap-phuong',
     ],
 };
 
